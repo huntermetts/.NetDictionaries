@@ -1,0 +1,11 @@
+/Users/HunterMetts/workspace/backendWorkspace/C#Dictionary/bin/Debug/netcoreapp2.2/C#Dictionary.deps.json
+/Users/HunterMetts/workspace/backendWorkspace/C#Dictionary/bin/Debug/netcoreapp2.2/C#Dictionary.runtimeconfig.json
+/Users/HunterMetts/workspace/backendWorkspace/C#Dictionary/bin/Debug/netcoreapp2.2/C#Dictionary.runtimeconfig.dev.json
+/Users/HunterMetts/workspace/backendWorkspace/C#Dictionary/bin/Debug/netcoreapp2.2/C#Dictionary.dll
+/Users/HunterMetts/workspace/backendWorkspace/C#Dictionary/bin/Debug/netcoreapp2.2/C#Dictionary.pdb
+/Users/HunterMetts/workspace/backendWorkspace/C#Dictionary/obj/Debug/netcoreapp2.2/C#Dictionary.csprojAssemblyReference.cache
+/Users/HunterMetts/workspace/backendWorkspace/C#Dictionary/obj/Debug/netcoreapp2.2/C#Dictionary.csproj.CoreCompileInputs.cache
+/Users/HunterMetts/workspace/backendWorkspace/C#Dictionary/obj/Debug/netcoreapp2.2/C#Dictionary.AssemblyInfoInputs.cache
+/Users/HunterMetts/workspace/backendWorkspace/C#Dictionary/obj/Debug/netcoreapp2.2/C#Dictionary.AssemblyInfo.cs
+/Users/HunterMetts/workspace/backendWorkspace/C#Dictionary/obj/Debug/netcoreapp2.2/C#Dictionary.dll
+/Users/HunterMetts/workspace/backendWorkspace/C#Dictionary/obj/Debug/netcoreapp2.2/C#Dictionary.pdb
