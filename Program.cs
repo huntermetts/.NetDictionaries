@@ -87,17 +87,15 @@ namespace C_Dictionary
             // Console.WriteLine(planet);
             List<string> matchingProbes = new List<string>();
             foreach (Dictionary<string, string> probe in probes){
-                foreach (KeyValuePair<string, string> kvp in probe)
-                {
-
-                if (planet.Contains(kvp.Key)){
-                    Console.WriteLine($"{planet}: {kvp.Value}");
+                if (probe.ContainsKey(planet)){
+                    // Console.WriteLine($"{planet}: {kvp.Value}, KPVKEY= {kvp.Key}");
+                    matchingProbes.Add(probe[planet]);
                 } else{
 
                 }
                 //  Console.WriteLine($"The prob is: {kvp.Key} and the planet is: {kvp.Value}");
-                }
             }
+            Console.WriteLine($"{planet}: {String.Join(", ", matchingProbes)}");
         });
         }
     }
