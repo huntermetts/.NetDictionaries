@@ -37,33 +37,19 @@ namespace C_Dictionary
             {
                 foreach (KeyValuePair<string, double> kvp in purchase)
                 {
-                //    Console.WriteLine($"Key= {stock.Key}, Value= {stock.Value}");
-
                    if (stockReport.ContainsKey(stocks[kvp.Key])){
                        stockReport[stocks[kvp.Key]] += kvp.Value;
                    } else {
                        stockReport[stocks[kvp.Key]] = kvp.Value;
                    }
-
-                    // If it does, update the total valuation
-
-                    /*
-                        If not, add the new key and set its value.
-                        You have the value of "GE", so how can you look
-                        the value of "GE" in the `stocks` dictionary
-                        to get the value of "General Electric"?
-                    */
                 }
-
             }
-
         }
           foreach(KeyValuePair<string, double> item in stockReport)
                     {
                         Console.WriteLine($"The position in {item.Key} is worth {item.Value}");
                         Console.WriteLine($"_________________________________________________");
                     }
-
 
 // Planet practice
         List<string> planetList = new List<string>(){"Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"};
@@ -88,12 +74,8 @@ namespace C_Dictionary
             List<string> matchingProbes = new List<string>();
             foreach (Dictionary<string, string> probe in probes){
                 if (probe.ContainsKey(planet)){
-                    // Console.WriteLine($"{planet}: {kvp.Value}, KPVKEY= {kvp.Key}");
                     matchingProbes.Add(probe[planet]);
-                } else{
-
                 }
-                //  Console.WriteLine($"The prob is: {kvp.Key} and the planet is: {kvp.Value}");
             }
             Console.WriteLine($"{planet}: {String.Join(", ", matchingProbes)}");
         });
